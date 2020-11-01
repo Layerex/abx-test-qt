@@ -28,4 +28,4 @@ Qt application for [ABX testing](https://en.wikipedia.org/wiki/ABX_test).
 
 ## TODO
 
-- Migitate click when switching players
+- Mitigate click when switching players
