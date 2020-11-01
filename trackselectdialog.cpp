@@ -6,12 +6,6 @@ TrackSelectDialog::TrackSelectDialog(QWidget *parent)
 {
     ui->setupUi(this);
 
-    // TODO choosing segment
-    // ui->chooseSegmentLabel1->setHidden(true);
-    // ui->chooseSegmentLabel2->setHidden(true);
-    // ui->segmentStartTimestampLineEdit->setHidden(true);
-    // ui->segmentStopTimestampLineEdit->setHidden(true);
-
     ui->buttonBox->button(QDialogButtonBox::Ok)->setEnabled(false);
     ui->trackLengthsAreNotEqualLabel->hide();
 
