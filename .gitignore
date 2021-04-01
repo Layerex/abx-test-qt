@@ -10,6 +10,7 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+build
 
 # C++ objects and libs
 *.slo
@@ -60,5 +61,6 @@ target_wrapper.*
 
 # clangd
 .clangd
+.cache
 
 abx-test-qt*
