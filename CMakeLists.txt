@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(abx-test-qt LANGUAGES CXX VERSION 1.0.0)
+project(abx-test-qt LANGUAGES CXX VERSION 1.0.1)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
