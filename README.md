@@ -16,7 +16,11 @@ Qt application for performing [ABX](https://en.wikipedia.org/wiki/ABX_test) [cod
 
 ## Build
 
-`cmake . && make`
+``` sh
+mkdir build
+cd build
+cmake .. && make
+```
 
 ## Usage
 
