@@ -1,6 +1,6 @@
 # abx-test-qt
 
-Qt application for [ABX testing](https://en.wikipedia.org/wiki/ABX_test).
+Qt application for performing [ABX](https://en.wikipedia.org/wiki/ABX_test) [codec listening tests](https://en.wikipedia.org/wiki/Codec_listening_test).
 
 ## Features
 
