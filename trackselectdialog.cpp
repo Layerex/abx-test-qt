@@ -134,6 +134,10 @@ qint64 TrackSelectDialog::getFileLength(const QString &filePath)
     if (isFileReadable(filePath)) {
         QMediaPlayer dummyPlayer;
         dummyPlayer.setMedia(QUrl::fromLocalFile(filePath));
+        // A workaround to get an actual duration of a file (just setting up a player does not work
+        // right with all files).
+        dummyPlayer.setMuted(true);
+        dummyPlayer.play();
         qint64 duration;
         QTimer timer;
         timer.setSingleShot(true);
@@ -145,6 +149,7 @@ qint64 TrackSelectDialog::getFileLength(const QString &filePath)
         });
         timer.start(1000);
         loop.exec();
+        dummyPlayer.stop();
         return duration;
     }
     return -1;
